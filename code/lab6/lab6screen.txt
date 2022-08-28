@@ -1,0 +1,56 @@
+u1@ubuntu:~/oscp/nachos-3.4-ualr-lw/code/lab6$ ./nachos -x ../test/exec.noff
+*** thread 0 looped 0 times
+*** thread 1 looped 0 times
+*** thread 0 looped 1 times
+*** thread 1 looped 1 times
+*** thread 0 looped 2 times
+*** thread 1 looped 2 times
+*** thread 0 looped 3 times
+*** thread 1 looped 3 times
+*** thread 0 looped 4 times
+*** thread 1 looped 4 times
+spaceID: 0
+Page table dump: 11 pages in total
+============================================
+	VirtPage, 	PhysPage
+	0, 		0
+	1, 		1
+	2, 		2
+	3, 		3
+	4, 		4
+	5, 		5
+	6, 		6
+	7, 		7
+	8, 		8
+	9, 		9
+	10, 		10
+============================================
+
+Execute system call of Exec()
+Exec(../test/halt.noff):
+spaceID: 1
+Page table dump: 10 pages in total
+============================================
+	VirtPage, 	PhysPage
+	0, 		11
+	1, 		12
+	2, 		13
+	3, 		14
+	4, 		15
+	5, 		16
+	6, 		17
+	7, 		18
+	8, 		19
+	9, 		20
+============================================
+
+Machine halting!
+
+Ticks: total 155, idle 0, system 130, user 25
+Disk I/O: reads 0, writes 0
+Console I/O: reads 0, writes 0
+Paging: faults 0
+Network I/O: packets received 0, sent 0
+
+Cleaning up...
+u1@ubuntu:~/oscp/nachos-3.4-ualr-lw/code/lab6$ 

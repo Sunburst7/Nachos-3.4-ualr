@@ -1,0 +1,159 @@
+u1@ubuntu:~/oscp/nachos-3.4-ualr-lw/code/lab4$ ./nachos -f
+No threads ready or runnable, and no pending interrupts.
+Assuming the program completed.
+Machine halting!
+
+Ticks: total 82520, idle 82270, system 250, user 0
+Disk I/O: reads 3, writes 5
+Console I/O: reads 0, writes 0
+Paging: faults 0
+Network I/O: packets received 0, sent 0
+
+Cleaning up...
+u1@ubuntu:~/oscp/nachos-3.4-ualr-lw/code/lab4$ ./nachos -cp test/big big
+No threads ready or runnable, and no pending interrupts.
+Assuming the program completed.
+Machine halting!
+
+Ticks: total 1109520, idle 1105220, system 4300, user 0
+Disk I/O: reads 74, writes 69
+Console I/O: reads 0, writes 0
+Paging: faults 0
+Network I/O: packets received 0, sent 0
+
+Cleaning up...
+u1@ubuntu:~/oscp/nachos-3.4-ualr-lw/code/lab4$ ./nachos -D
+Bit map file header:
+FileHeader contents.  File size: 128.  File blocks:
+2 
+File contents:
+\ff\7\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0
+Directory file header:
+FileHeader contents.  File size: 200.  File blocks:
+3 4 
+File contents:
+\1\0\0\0\5\0\0\0big\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0
+\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0
+Bitmap set:
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 
+Directory contents:
+Name: big, Sector: 5
+FileHeader contents.  File size: 608.  File blocks:
+6 7 8 9 10 
+File contents:
+{big big big big big big big big big}\a{big big big big big big big big big}\a{big big big big big big big big big}\a{big big big b
+ig big big big big big}\a{big big big big big big big big big}\a{big big big big big big big big big}\a{big big big big big big big
+ big big}\a{big big big big big big big big big}\a{big big big big big big big big big}\a{big big big big big big big big big}\a{big
+ big big big big big big big big}\a{big big big big big big big big big}\a{big big big big big big big big big}\a{big big big big b
+ig big big big big}\a{big big big big big big big big big}\a{big big big big big big big big big}\a
+
+No threads ready or runnable, and no pending interrupts.
+Assuming the program completed.
+Machine halting!
+
+Ticks: total 8490, idle 8000, system 490, user 0
+Disk I/O: reads 16, writes 0
+Console I/O: reads 0, writes 0
+Paging: faults 0
+Network I/O: packets received 0, sent 0
+
+Cleaning up...
+u1@ubuntu:~/oscp/nachos-3.4-ualr-lw/code/lab4$ ./nachos -ap test/small big
+No threads ready or runnable, and no pending interrupts.
+Assuming the program completed.
+Machine halting!
+
+Ticks: total 99020, idle 98440, system 580, user 0
+Disk I/O: reads 12, writes 7
+Console I/O: reads 0, writes 0
+Paging: faults 0
+Network I/O: packets received 0, sent 0
+
+Cleaning up...
+u1@ubuntu:~/oscp/nachos-3.4-ualr-lw/code/lab4$ ./nachos -D
+Bit map file header:
+FileHeader contents.  File size: 128.  File blocks:
+2 
+File contents:
+\ff\f\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0
+Directory file header:
+FileHeader contents.  File size: 200.  File blocks:
+3 4 
+File contents:
+\1\0\0\0\5\0\0\0big\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0
+\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0
+Bitmap set:
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 
+Directory contents:
+Name: big, Sector: 5
+FileHeader contents.  File size: 646.  File blocks:
+6 7 8 9 10 11 
+File contents:
+{big big big big big big big big big}\a{big big big big big big big big big}\a{big big big big big big big big big}\a{big big big b
+ig big big big big big}\a{big big big big big big big big big}\a{big big big big big big big big big}\a{big big big big big big big
+ big big}\a{big big big big big big big big big}\a{big big big big big big big big big}\a{big big big big big big big big big}\a{big
+ big big big big big big big big}\a{big big big big big big big big big}\a{big big big big big big big big big}\a{big big big big b
+ig big big big big}\a{big big big big big big big big big}\a{big big big big big big big big big}\a(small small small small small s
+mall)\a
+
+No threads ready or runnable, and no pending interrupts.
+Assuming the program completed.
+Machine halting!
+
+Ticks: total 9020, idle 8500, system 520, user 0
+Disk I/O: reads 17, writes 0
+Console I/O: reads 0, writes 0
+Paging: faults 0
+Network I/O: packets received 0, sent 0
+
+Cleaning up...
+u1@ubuntu:~/oscp/nachos-3.4-ualr-lw/code/lab4$ ./nachos -hap test/small big
+No threads ready or runnable, and no pending interrupts.
+Assuming the program completed.
+Machine halting!
+
+Ticks: total 68520, idle 68120, system 400, user 0
+Disk I/O: reads 9, writes 4
+Console I/O: reads 0, writes 0
+Paging: faults 0
+Network I/O: packets received 0, sent 0
+
+Cleaning up...
+u1@ubuntu:~/oscp/nachos-3.4-ualr-lw/code/lab4$ ./nachos -D
+Bit map file header:
+FileHeader contents.  File size: 128.  File blocks:
+2 
+File contents:
+\ff\f\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0
+Directory file header:
+FileHeader contents.  File size: 200.  File blocks:
+3 4 
+File contents:
+\1\0\0\0\5\0\0\0big\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0
+\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0
+Bitmap set:
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 
+Directory contents:
+Name: big, Sector: 5
+FileHeader contents.  File size: 646.  File blocks:
+6 7 8 9 10 11 
+File contents:
+{big big big big big big big big big}\a{big big big big big big big big big}\a{big big big big big big big big big}\a{big big big b
+ig big big big big big}\a{big big big big big big big big big}\a{big big big big big big big big big}\a{big big big big big big big
+ big big}\a{big big big big big big big big big}\a{big big big big bi(small small small small small small)\ag big big big big}\a{big
+ big big big big big big big big}\a{big big big big big big big big big}\a{big big big big big big big big big}\a{big big big big b
+ig big big big big}\a{big big big big big big big big big}\a{big big big big big big big big big}\a(small small small small small s
+mall)\a
+
+No threads ready or runnable, and no pending interrupts.
+Assuming the program completed.
+Machine halting!
+
+Ticks: total 9020, idle 8500, system 520, user 0
+Disk I/O: reads 17, writes 0
+Console I/O: reads 0, writes 0
+Paging: faults 0
+Network I/O: packets received 0, sent 0
+
+Cleaning up...
+u1@ubuntu:~/oscp/nachos-3.4-ualr-lw/code/lab4$ 

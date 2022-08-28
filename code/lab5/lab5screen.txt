@@ -1,0 +1,256 @@
+u1@ubuntu:~/oscp/nachos-3.4-ualr-lw/code/lab5$ ./nachos -f
+No threads ready or runnable, and no pending interrupts.
+Assuming the program completed.
+Machine halting!
+
+Ticks: total 82520, idle 82270, system 250, user 0
+Disk I/O: reads 3, writes 5
+Console I/O: reads 0, writes 0
+Paging: faults 0
+Network I/O: packets received 0, sent 0
+
+Cleaning up...
+u1@ubuntu:~/oscp/nachos-3.4-ualr-lw/code/lab5$ ./nachos -cp test/huge huge
+No threads ready or runnable, and no pending interrupts.
+Assuming the program completed.
+Machine halting!
+
+Ticks: total 4220520, idle 4204580, system 15940, user 0
+Disk I/O: reads 268, writes 263
+Console I/O: reads 0, writes 0
+Paging: faults 0
+Network I/O: packets received 0, sent 0
+
+Cleaning up...
+u1@ubuntu:~/oscp/nachos-3.4-ualr-lw/code/lab5$ ./nachos -D
+Bit map file header:
+FileHeader contents.  File size: 128.  File blocks:
+2 
+File contents:
+\ff\ff\ff\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0
+Directory file header:
+FileHeader contents.  File size: 200.  File blocks:
+3 4 
+File contents:
+\1\0\0\0\5\0\0\0huge\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0
+\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0
+Bitmap set:
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 
+Directory contents:
+Name: huge, Sector: 5
+FileHeader contents.  File size: 2432.  File blocks:
+6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 
+File contents:
+<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge hug
+e huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge hu
+ge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<hug
+e huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge hu
+ge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  
+huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge hu
+ge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge h
+uge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge
+>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge h
+uge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge 
+huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<h
+uge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge 
+huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge
+  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge 
+huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge
+ huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  hu
+ge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge
+ huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge hug
+e huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a
+
+No threads ready or runnable, and no pending interrupts.
+Assuming the program completed.
+Machine halting!
+
+Ticks: total 15910, idle 15000, system 910, user 0
+Disk I/O: reads 30, writes 0
+Console I/O: reads 0, writes 0
+Paging: faults 0
+Network I/O: packets received 0, sent 0
+
+Cleaning up...
+u1@ubuntu:~/oscp/nachos-3.4-ualr-lw/code/lab5$ ./nachos -ap test/huge huge
+No threads ready or runnable, and no pending interrupts.
+Assuming the program completed.
+Machine halting!
+
+Ticks: total 4963020, idle 4937660, system 25360, user 0
+Disk I/O: reads 557, writes 288
+Console I/O: reads 0, writes 0
+Paging: faults 0
+Network I/O: packets received 0, sent 0
+
+Cleaning up...
+u1@ubuntu:~/oscp/nachos-3.4-ualr-lw/code/lab5$ ./nachos -D
+Bit map file header:
+FileHeader contents.  File size: 128.  File blocks:
+2 
+File contents:
+\ff\ff\ff\ff\ff\1f\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0
+Directory file header:
+FileHeader contents.  File size: 200.  File blocks:
+3 4 
+File contents:
+\1\0\0\0\5\0\0\0huge\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0
+\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0
+Bitmap set:
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 
+Directory contents:
+Name: huge, Sector: 5
+FileHeader contents.  File size: 4864.  File blocks:
+6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34  Index2: 36 37 38 39 40 41 42 43 44 
+File contents:
+<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge hug
+e huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge hu
+ge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<hug
+e huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge hu
+ge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  
+huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge hu
+ge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge h
+uge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge
+>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge h
+uge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge 
+huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<h
+uge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge 
+huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge
+  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge 
+huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge
+ huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  hu
+ge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge
+ huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge hug
+e huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a
+<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge hug
+e huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge hu
+ge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<hug
+e huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge hu
+ge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  
+huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge hu
+ge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge h
+uge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge
+>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge h
+uge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge 
+huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<h
+uge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge 
+huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge
+  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge 
+huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge
+ huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  hu
+ge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge
+ huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge hug
+e huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a
+
+No threads ready or runnable, and no pending interrupts.
+Assuming the program completed.
+Machine halting!
+
+Ticks: total 54350, idle 52840, system 1510, user 0
+Disk I/O: reads 50, writes 0
+Console I/O: reads 0, writes 0
+Paging: faults 0
+Network I/O: packets received 0, sent 0
+
+Cleaning up...
+u1@ubuntu:~/oscp/nachos-3.4-ualr-lw/code/lab5$ ./nachos -ap test/huge huge
+No threads ready or runnable, and no pending interrupts.
+Assuming the program completed.
+Machine halting!
+
+Ticks: total 5379020, idle 5344900, system 34120, user 0
+Disk I/O: reads 839, writes 298
+Console I/O: reads 0, writes 0
+Paging: faults 0
+Network I/O: packets received 0, sent 0
+
+Cleaning up...
+u1@ubuntu:~/oscp/nachos-3.4-ualr-lw/code/lab5$ ./nachos -D
+Bit map file header:
+FileHeader contents.  File size: 128.  File blocks:
+2 
+File contents:
+\ff\ff\ff\ff\ff\ff\ff\ff\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0
+Directory file header:
+FileHeader contents.  File size: 200.  File blocks:
+3 4 
+File contents:
+\1\0\0\0\5\0\0\0huge\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0
+\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0
+Bitmap set:
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 
+Directory contents:
+Name: huge, Sector: 5
+FileHeader contents.  File size: 7296.  File blocks:
+6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34  Index2: 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 
+File contents:
+<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge hug
+e huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge hu
+ge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<hug
+e huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge hu
+ge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  
+huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge hu
+ge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge h
+uge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge
+>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge h
+uge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge 
+huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<h
+uge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge 
+huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge
+  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge 
+huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge
+ huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  hu
+ge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge
+ huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge hug
+e huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a
+<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge hug
+e huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge hu
+ge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<hug
+e huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge hu
+ge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  
+huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge hu
+ge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge h
+uge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge
+>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge h
+uge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge 
+huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<h
+uge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge 
+huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge
+  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge 
+huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge
+ huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  hu
+ge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge
+ huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge hug
+e huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a
+<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge hug
+e huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge hu
+ge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<hug
+e huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge hu
+ge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  
+huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge hu
+ge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge h
+uge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge
+>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge h
+uge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge 
+huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<h
+uge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge 
+huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge
+  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge 
+huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge
+ huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  hu
+ge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge
+ huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge hug
+e huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a<huge huge huge huge huge huge  huge>\a
+
+No threads ready or runnable, and no pending interrupts.
+Assuming the program completed.
+Machine halting!
+
+Ticks: total 64420, idle 62340, system 2080, user 0
+Disk I/O: reads 69, writes 0
+Console I/O: reads 0, writes 0
+Paging: faults 0
+Network I/O: packets received 0, sent 0
+
+Cleaning up...
+u1@ubuntu:~/oscp/nachos-3.4-ualr-lw/code/lab5$ 
